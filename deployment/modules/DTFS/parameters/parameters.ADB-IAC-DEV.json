@@ -39,6 +39,12 @@
                 "skuFamily": "B",
                 "skuCapacity": "1"
             }
+        },
+        "app": {
+            "value": {
+                "name": "learning101386site",
+                "location": "centralindia"
+            }
         }
     }
 }
