@@ -1,0 +1,7 @@
+variables:
+  # DEV Environment
+  ENVIRONMENT: ADB-IAC-DEV
+  RESOURCE_GROUP: learning101386_ai
+  LOCATION: centralindia
+  SERVICECONNECTION_RG: My_Azure
+  SUBSCRIPTIONID: "e609b895-8521-4e27-a166-510b517292f5"
