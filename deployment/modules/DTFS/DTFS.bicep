@@ -3,6 +3,7 @@ param resourceGroupName string
 param location string
 param tags object
 param keyVault object
+param asp object
 
 module rg 'resource-group.bicep' = {
   name: resourceGroupName
@@ -19,6 +20,17 @@ module kv './key-vault.bicep' = {
   name: keyVault.name
   params: {
     keyVault: keyVault
+    tags: tags
+  }
+}
+
+module appservice './app-service-plan.bicep' = {
+  scope: resourceGroup(rg.name)
+  name: asp.name
+  params: {
+    asp: asp
+    appServicePlanName: asp.name
+    location: asp.location
     tags: tags
   }
 }

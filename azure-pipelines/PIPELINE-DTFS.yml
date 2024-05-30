@@ -43,7 +43,7 @@ stages:
       location: $(LOCATION)
       subscription: $(SUBSCRIPTIONID)
       module: 'DTFS'
-      project: 'RCA'
+      project: 'AI'
 
 # Deploy QA Environment
 # - stage: deployinfra_QA

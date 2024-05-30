@@ -9,7 +9,13 @@
             "value": "learning101386_ai"
         },
         "tags": {
-            "value": {}
+            "value": {
+                "AppOwner": "Mohamed Khan",
+                "BusinessOwner": "DOUMURP",
+                "useCase": "Analytical Decision Making and Dashboard Data Querying using chatgpt",
+                "ProductManager": "Vijay Gandhi",
+                "ProjectType": "aoai-your-data-service"
+            }
         },
         "keyVault": {
             "value": {
@@ -21,6 +27,17 @@
                 },
                 "tenantId": "e02863cf-f37d-4df4-94d0-f29f1a4d6bcf",
                 "accesspolicies": []
+            }
+        },
+        "asp": {
+            "value": {
+                "name": "asp-learningmexicopolicy",
+                "location": "centralindia",
+                "skuName": "B1",
+                "skuTier": "Basic",
+                "skuSize": "B1",
+                "skuFamily": "B",
+                "skuCapacity": "1"
             }
         }
     }
