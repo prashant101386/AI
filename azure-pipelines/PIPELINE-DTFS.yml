@@ -22,7 +22,7 @@ stages:
   jobs: 
   - template: templates/run-code-lint.template.yml
     parameters:
-      module: 'adb'
+      module: 'DTFS'
 
 ####################
 ##  DEPLOY INFRA  ##
